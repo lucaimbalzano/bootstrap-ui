@@ -3,4 +3,8 @@
   justify-content: space-around;
   align-items: center;
   min-height: 8vh;
+  background-color: #7952b3;
+}
+.d-block my-1 {
+  color: white;
 }
