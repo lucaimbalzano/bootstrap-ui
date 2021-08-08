@@ -102,6 +102,6 @@
   overflow-x: hidden;
 }
 
-.navbar-links {
+.navbar-active {
   transform: translateX(0%);
 }
