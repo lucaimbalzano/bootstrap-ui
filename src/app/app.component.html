@@ -21,16 +21,16 @@
 
     <ul class="navbar-links">
       <li>
-        <a> Home</a>
+        <a routerLink="/home"> Home</a>
       </li>
       <li>
-        <a> Examples</a>
+        <a routerLink="/example"> Examples</a>
       </li>
       <li>
-        <a> Docs</a>
+        <a routerLink="/docs"> Docs</a>
       </li>
       <li>
-        <a>Icons</a>
+        <a routerLink="/icons">Icons</a>
       </li>
     </ul>
     <app-burger-menu></app-burger-menu>
@@ -77,5 +77,10 @@
         </a>
       </li>
     </ul>
+    <button class="button button2">
+      <a href="https://github.com/lucaimbalzano/bootstrap-ui">Download</a>
+    </button>
   </nav>
 </div>
+<br />
+<router-outlet></router-outlet>

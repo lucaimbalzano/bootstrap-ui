@@ -3,20 +3,24 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { DocsComponent } from './components/docs/docs/docs.component';
-import { ExamplesComponent } from './components/examples/examples/examples.component';
-import { BurgerMenuComponent } from './components/burger-menu/burger-menu/burger-menu.component';
+import { DocsComponent } from './components/docs/docs.component';
+import { ExamplesComponent } from './components/examples/examples.component';
+import { BurgerMenuComponent } from './components/burger-menu/burger-menu.component';
+import { IconsComponent } from './components/icons/icons.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
     AppComponent,
     DocsComponent,
     ExamplesComponent,
-    BurgerMenuComponent
+    BurgerMenuComponent,
+    IconsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
