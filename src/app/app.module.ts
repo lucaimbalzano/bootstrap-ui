@@ -9,6 +9,7 @@ import { BurgerMenuComponent } from './components/burger-menu/burger-menu.compon
 import { IconsComponent } from './components/icons/icons.component';
 import { RouterModule } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { HomeComponent } from './components/home/home.component';
     ExamplesComponent,
     BurgerMenuComponent,
     IconsComponent,
-    HomeComponent
+    HomeComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
