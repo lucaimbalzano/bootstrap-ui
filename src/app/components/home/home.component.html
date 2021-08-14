@@ -1,4 +1,3 @@
-<p>home works!</p>
 <div class="home-container">
   <div class="row-cont-1">
     <h1>
@@ -343,7 +342,8 @@
     </div>
     <div class="row-cont-3-second">
       <div class="command-highlight">
-        $ npm install bootstrap
+        <div class="command-highlight-one">$ npm install bootstrap</div>
+
         <button
           class="copy-clipboard"
           (click)="copyMessage('npm install bootstrap')"
@@ -352,18 +352,265 @@
           Copy
         </button>
       </div>
+      <div class="command-highlight">
+        <div class="command-highlight-one">
+          $ gem install bootstrap -v 5.1.0
+        </div>
+        <button
+          class="copy-clipboard"
+          (click)="copyMessage('gem install bootstrap -v 5.1.0')"
+          value="click to copy"
+        >
+          Copy
+        </button>
+      </div>
     </div>
   </div>
-  <div class="row-cont-3">
-    <div class="row-cont-3-first">somthing</div>
-    <div class="row-cont-3-second">second</div>
+
+  <div class="row-content-3-container">
+    <div class="row-cont-3">
+      <div class="row-cont-3-first">
+        <div class="installation-icon" style="background-color: #7952b3">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="32"
+            height="32"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M3.5 13a3.5 3.5 0 11.59-6.95 5.002 5.002 0 119.804 1.98A2.5 2.5 0 0113.5 13h-10z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+        </div>
+        <h2>jsDelivr</h2>
+        <p class="installation-p">
+          When you only need to include Bootstrap’s compiled CSS<br />
+          or JS, you can use <a href="https://www.jsdelivr.com/">jsDelivr</a>.
+        </p>
+        <p>
+          See it in action with our simple
+          <a href="/docs/5.1/getting-started/introduction/#starter-template"
+            >starter template</a
+          >, or <a href="/docs/5.1/examples/">browse the examples</a> <br />to
+          jumpstart your next project. You can also choose to include Popper
+          and<br />
+          our JS
+          <a href="/docs/5.1/getting-started/introduction/#separate"
+            >separately</a
+          >.
+        </p>
+        <button class="button3">
+          <a href="https://github.com/lucaimbalzano/bootstrap-ui"
+            >Explore the Docs</a
+          >
+        </button>
+      </div>
+      <div class="row-cont-3-second">
+        <div class="command-highlight">
+          <div class="command-highlight-one" id="cssCopy">
+            <pre
+              tabindex="0"
+              class="chroma"
+            ><code class="language-html" data-lang="html"><span class="c">&lt;!-- CSS only --&gt;</span>
+                <span class="p">&lt;</span><span class="nt">link</span> <span class="na">href</span><span class="o">=</span><span class="s">"https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"</span> <span class="na">rel</span><span class="o">=</span><span class="s">"stylesheet"</span> <span class="na">integrity</span><span class="o">=</span><span class="s">"sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"</span> <span class="na">crossorigin</span><span class="o">=</span><span class="s">"anonymous"</span><span class="p">&gt;</span>
+                </code></pre>
+          </div>
+
+          <button
+            class="copy-clipboard"
+            (click)="
+              copyMessage(
+                'https://getbootstrap.com/docs/5.1/getting-started/introduction/'
+              )
+            "
+            value="click to copy"
+          >
+            Copy
+          </button>
+        </div>
+        <div class="command-highlight">
+          <div class="command-highlight-one">
+            <pre
+              tabindex="0"
+              class="chroma"
+            ><code class="language-html" data-lang="html"><span class="c">&lt;!-- JavaScript Bundle with Popper --&gt;</span>
+                <span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">"https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"</span> <span class="na">integrity</span><span class="o">=</span><span class="s">"sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"</span> <span class="na">crossorigin</span><span class="o">=</span><span class="s">"anonymous"</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+                </code></pre>
+          </div>
+          <button
+            class="copy-clipboard"
+            (click)="
+              copyMessage(
+                'https://getbootstrap.com/docs/5.1/getting-started/introduction/'
+              )
+            "
+            value="click to copy"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="row-content-3-container">
+      <div class="row-cont-3">
+        <div class="row-cont-3-first">
+          <div class="installation-icon" style="background-color: #7952b3">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              fill="currentColor"
+              focusable="false"
+              viewBox="0 0 16 16"
+            >
+              <path d="M0 6a6 6 0 1112 0A6 6 0 010 6z"></path>
+              <path
+                d="M12.93 5h1.57a.5.5 0 01.5.5v9a.5.5 0 01-.5.5h-9a.5.5 0 01-.5-.5v-1.57a6.953 6.953 0 01-1-.22v1.79A1.5 1.5 0 005.5 16h9a1.5 1.5 0 001.5-1.5v-9A1.5 1.5 0 0014.5 4h-1.79c.097.324.17.658.22 1z"
+              ></path>
+            </svg>
+          </div>
+          <h2>Bootstrap Icons</h2>
+          <p class="installation-p">
+            For the first time ever, Bootstrap has its own open source SVG
+            icon<br />
+            library, designed to work best with our components<br />
+            and documentation.
+          </p>
+          <p>
+            Bootstrap Icons are designed to work best with Bootstrap
+            components,<br />
+            but they’ll work in any project. They’re SVGs, so they scale quickly
+            and<br />
+            easily, can be implemented in several ways, and can be styled with
+            CSS
+          </p>
+          <button class="button3">
+            <a href="https://github.com/lucaimbalzano/bootstrap-ui"
+              >Get Bootstrap Icons</a
+            >
+          </button>
+        </div>
+        <div
+          class="row-cont-3-second"
+          style="justify-content: center; display: flex"
+        >
+          <img
+            class="img-fluid mt-3 mx-auto"
+            src="../assets/images/bootstrap-icons.png"
+            alt="Bootstrap Icons"
+            width="700"
+            height="425"
+            loading="lazy"
+          />
+        </div>
+      </div>
+      <div class="row-content-3-container">
+        <div class="row-cont-3">
+          <div class="row-cont-3-first">
+            <div class="installation-icon" style="background-color: #b65050">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                fill="currentColor"
+                focusable="false"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M8 16a6 6 0 006-6c0-1.655-1.122-2.904-2.432-4.362C10.254 4.176 8.75 2.503 8 0c0 0-6 5.686-6 10a6 6 0 006 6zM6.646 4.646c-.376.377-1.272 1.489-2.093 3.13l.894.448c.78-1.559 1.616-2.58 1.907-2.87l-.708-.708z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+            </div>
+            <h2>Official Themes</h2>
+            <p class="installation-p">
+              Take Bootstrap to the next level with premium themes from the
+            </p>
+            <p>
+              Themes are built on Bootstrap as their own extended frameworks,
+              rich with new components and plugins, documentation, and powerful
+              build tools.
+            </p>
+            <button class="button3">
+              <a href="https://github.com/lucaimbalzano/bootstrap-ui"
+                >Browse themse</a
+              >
+            </button>
+          </div>
+          <div
+            class="row-cont-3-second"
+            style="justify-content: center; display: flex"
+          >
+            <img
+              class="img-fluid mt-3 mx-auto"
+              src="../assets/images/bootstrap-themes.png"
+              alt="Bootstrap Icons"
+              width="700"
+              height="425"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-  <div class="row-cont-3">
-    <div class="row-cont-3-first">somthing</div>
-    <div class="row-cont-3-second">second</div>
+</div>
+<div class="footer-container">
+  <div class="footer-content">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="40"
+      height="32"
+      class="d-block me-2"
+      viewBox="0 0 118 94"
+      role="img"
+    >
+      <title>Bootstrap</title>
+      <path
+        fill-rule="evenodd"
+        clip-rule="evenodd"
+        d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z"
+        fill="currentColor"
+      ></path>
+    </svg>
+    <span class="fs-5">Bootstrap</span>
+    <p>
+      Designed and built with all the love in the world by Luca Imbalzano ❤️
+    </p>
+    Currently v5.1.0
   </div>
-  <div class="row-cont-3">
-    <div class="row-cont-3-first">somthing</div>
-    <div class="row-cont-3-second">second</div>
+  <div class="footer-content">
+    <h5>Links</h5>
+    <ul class="list-unstyled">
+      <li class="mb-2"><a href="/">Home</a></li>
+      <li class="mb-2"><a href="/docs/5.1/">Docs</a></li>
+      <li class="mb-2"><a href="/docs/5.1/examples/">Examples</a></li>
+      <li class="mb-2">
+        <a href="https://themes.getbootstrap.com/">Themes</a>
+      </li>
+      <li class="mb-2"><a href="https://blog.getbootstrap.com/">Blog</a></li>
+    </ul>
+  </div>
+  <div class="footer-content">
+    <h5>Social</h5>
+    <ul class="list-unstyled">
+      <li class="mb-2">
+        <a href="https://github.com/lucaimbalzano">Github</a>
+      </li>
+      <li class="mb-2">
+        <a href="https://www.linkedin.com/in/luca-imbalzano-37a328172/"
+          >Linkedin</a
+        >
+      </li>
+    </ul>
+  </div>
+  <div class="footer-content">
+    <h5>Where</h5>
+    Milan, Italy 🇮🇹
   </div>
 </div>

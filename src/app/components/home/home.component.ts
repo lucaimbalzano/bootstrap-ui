@@ -22,6 +22,7 @@ export class HomeComponent implements OnInit {
     document.execCommand('copy');
     document.body.removeChild(selBox);
   }
+  
 
   ngOnInit(): void {
   }
