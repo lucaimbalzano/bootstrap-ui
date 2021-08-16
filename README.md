@@ -10,15 +10,18 @@
 ![image](https://user-images.githubusercontent.com/45575898/129449673-ce25132e-eb4a-472d-9970-9aaa78e7c2fc.png)
 ![image](https://user-images.githubusercontent.com/45575898/129449690-656a1f9e-a0ca-414f-9568-59129f16869f.png)
 
+##Installation📌
+Run `npm install` to install all the dependencies
+
 ## Description📌
 I wrote the style by hand, and implemented it with `Angular`; so i used the router and implement it into the navbar, i used typescript logic for the burger-menu and the copy-to-clipboard.
 I used flexbox to move the blocks content into the page and @media screen to render it `responsive`.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.11.
 
-## Development server
+## Development server📌
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `ng serve --port 1999` for a dev server. Navigate to `http://localhost:1999/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
