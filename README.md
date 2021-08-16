@@ -5,7 +5,7 @@
 ![image](https://user-images.githubusercontent.com/45575898/129449690-656a1f9e-a0ca-414f-9568-59129f16869f.png)
 
 ## Description📌
-I wrote the style by hand, and implement it with Angular; so i used the router and implement it into the navbar, i used typescript logic for the burger-menu and the copy-to-clipboard.
+I wrote the style by hand, and implemented it with `Angular`; so i used the router and implement it into the navbar, i used typescript logic for the burger-menu and the copy-to-clipboard.
 I used flexbox to move the blocks content into the page and @media screen to render it `responsive`.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.11.
