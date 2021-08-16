@@ -1,5 +1,5 @@
 # BootstrapUi🌌
-#DD0031 #1572B6
+![image](https://user-images.githubusercontent.com/45575898/129541498-9931c4f9-0936-4fba-9440-29c2c665c6d7.png width="20" height="20")
 
 
 ## Preview📌
@@ -39,4 +39,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Made with ❤ by GitHub ![](https://img.shields.io/badge/luca-informational?style=flat&logo=#DD0031&logoColor=white&color=2bbc8a) _ ![](https://img.shields.io/badge/Imbalzano-informational?style=flat&logo=&logoColor=white&color=2bbc8a)
+Made with ❤ by GitHub ![](https://img.shields.io/badge/luca-informational?style=flat&logo=#DD0031&logoColor=white&color=2bbc8a)![](https://img.shields.io/badge/Imbalzano-informational?style=flat&logo=&logoColor=white&color=2bbc8a)
