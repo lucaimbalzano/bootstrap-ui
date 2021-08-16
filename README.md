@@ -1,5 +1,7 @@
 # BootstrapUi🌌
 #DD0031 #1572B6
+![](https://img.shields.io/badge/<WORD_ON_LEFT>-<WORD_ON_RIGHT>-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=2bbc8a)
+
 ## Preview📌
 ![image](https://user-images.githubusercontent.com/45575898/129449641-a4b60e47-7e50-4912-bcde-331fddd8dc65.png)
 ![image](https://user-images.githubusercontent.com/45575898/129449673-ce25132e-eb4a-472d-9970-9aaa78e7c2fc.png)
