@@ -10,7 +10,7 @@
 ![image](https://user-images.githubusercontent.com/45575898/129449673-ce25132e-eb4a-472d-9970-9aaa78e7c2fc.png)
 ![image](https://user-images.githubusercontent.com/45575898/129449690-656a1f9e-a0ca-414f-9568-59129f16869f.png)
 
-##Installation📌
+## Installation📌
 Run `npm install` to install all the dependencies
 
 ## Description📌
