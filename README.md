@@ -1,5 +1,5 @@
 # BootstrapUi🌌
-![image](https://user-images.githubusercontent.com/45575898/129541498-9931c4f9-0936-4fba-9440-29c2c665c6d7.png width="20" height="20")
+![image](https://user-images.githubusercontent.com/45575898/129541498-9931c4f9-0936-4fba-9440-29c2c665c6d7.png){:height="50%" width="50%"}
 
 
 ## Preview📌
