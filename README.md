@@ -1,6 +1,6 @@
 # BootstrapUi🌌
 #DD0031 #1572B6
-![](https://img.shields.io/badge/luca-informational?style=flat&logo=<#DD0031>&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/luca-informational?style=flat&logo=#DD0031&logoColor=white&color=2bbc8a)
 
 ## Preview📌
 ![image](https://user-images.githubusercontent.com/45575898/129449641-a4b60e47-7e50-4912-bcde-331fddd8dc65.png)
