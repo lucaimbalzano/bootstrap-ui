@@ -4,7 +4,7 @@
   <img alt="npm" src="https://img.shields.io/badge/-NPM-CB3837?style=flat-square&logo=npm&logoColor=white" />
   <img alt="html5" src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
   <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />
-<img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=css3&logoColor=white" />
+<img alt="Css3" src="https://img.shields.io/badge/-CSS3-00FF00?style=flat-square&logo=css3&logoColor=white" />
 ## Preview📌
 ![image](https://user-images.githubusercontent.com/45575898/129449641-a4b60e47-7e50-4912-bcde-331fddd8dc65.png)
 ![image](https://user-images.githubusercontent.com/45575898/129449673-ce25132e-eb4a-472d-9970-9aaa78e7c2fc.png)
